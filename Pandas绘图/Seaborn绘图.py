@@ -17,7 +17,8 @@ plt.rcParams["axes.unicode_minus"] = False
 # 读取数据
 df = pd.read_csv('E:/python-leran/3.数据/tips.csv', index_col=0) #index_col=0 指定第一列作为索引列 离线方式，数据要放在当前目录下
 df1 = sns.load_dataset('tips') # 直接从seaborn中加载数据 在线方式，电脑要联网
-# 绘图
+# 绘图 散点图
+# 参数1 x轴数据  参数2 y轴数据 参数3 数据集 参数4：hue 分组依据的列名颜色 参数5 style:
 sns.scatterplot(x='total_bill', y='tip', data=df, hue='sex', style='time', size='size')
 print(df1)
 
