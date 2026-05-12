@@ -63,6 +63,8 @@ def dm02_data_visualize():
     # 参数1：x轴的列名（月度会员）  参数2：数据集 参数3：hue表示分组，根据分组进行绘制，这里是：是否流失Flase-不流失 True-流失
     sns.countplot(x='Contract_Month',data=data,hue='flag')
     plt.show()
+
+
 # 3、定义函数，进行逻辑回归模型训练，预测，评估
 def dm03_logistic_regression():
     # 3.1 读取数据
