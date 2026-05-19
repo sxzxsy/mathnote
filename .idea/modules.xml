@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../load_predict_project/.idea/load_predict_project.iml" filepath="$PROJECT_DIR$/../../load_predict_project/.idea/load_predict_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/load_predict_project1/.idea/load_predict_project1.iml" filepath="$PROJECT_DIR$/load_predict_project1/.idea/load_predict_project1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../pythonProject/pythonProject/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/../../pythonProject/pythonProject/.idea/pythonProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pythonlearn.iml" filepath="$PROJECT_DIR$/.idea/pythonlearn.iml" />
     </modules>
   </component>
