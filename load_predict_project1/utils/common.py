@@ -9,7 +9,7 @@ import pandas as pd
 # 测试集在 data目录下的test.csv文件中 ——>模拟项目上线后，真实的测试集
 
 # 定义函数，data_preprocessing()，对数据集进行预处理操作
-def data_preprocseeing(file_path = '../data/train.csv'):
+def data_preprocseeing(file_path='../data/train.csv'):
     # 1.加载数据
     df = pd.read_csv(file_path)
     # # 将time列转换为datetime类型
