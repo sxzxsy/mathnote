@@ -83,7 +83,7 @@ def learn_redj():
     y_test = test_data.iloc[:,-1]
 
     # 3.创建模型对象
-    estimator =  xgb.XGBClassifier(
+    estimator =  xgb.XGBClassifier(  # xgb分类模型
         max_depth =5,   # 树的最大深度
         n_estimators= 100,   # 树的数量
         learning_rate=0.1,  # 学习率
